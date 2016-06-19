@@ -1,0 +1,33 @@
+{
+  "name": "y",
+  "version": "0.1.0",
+  "description": "A javscript class for cycling through, and animating, a list of given words in the DOM.",
+  "main": "cycle-text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayhoward/cycle-text.git"
+  },
+  "author": "Brandon Howard <brandonrhoward@gmail.com> (brandonrhoward.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brayhoward/cycle-text/issues"
+  },
+  "homepage": "https://github.com/brayhoward/cycle-text#readme",
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-eslint": "6.0.4",
+    "babel-loader": "6.2.4",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-es2015": "6.9.0",
+    "webpack": "1.13.1",
+    "webpack-validator": "2.1.3"
+  },
+
+    "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch"
+  }
+}
